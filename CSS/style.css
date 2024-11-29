@@ -13,3 +13,46 @@ body {
 .logo:hover {
   cursor: pointer;
 }
+
+/* Навігація по сайту */
+.site-nav .link,
+.contact-nav .link {
+  color: var(--title-text-color);
+}
+
+/* Наведення на лінки в НАВІГАЦІЇ */
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: var(--accent-text-color);
+}
+
+/* Hero */
+.hero {
+  background-color: #2f303a;
+}
+
+/* заголовок ГЕРОЯ */
+.hero-title {
+  color: var(--primary-white-color);
+  font-size: 44px;
+}
+
+/* Кнопка ГЕРОЯ */
+.hero-btn {
+  background-color: var(--accent-text-color);
+  color: var(--primary-white-color);
+}
+
+/* Feature */
+
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* about */
+
+.about .title {
+  color: var(--title-text-color);
+}
