@@ -3,6 +3,7 @@
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --primary-white-color: #ffffff;
+  --secondary-bg-color: #2f303a;
 }
 
 body {
@@ -30,7 +31,7 @@ body {
 
 /* Hero */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--secondary-bg-color);
 }
 
 /* заголовок ГЕРОЯ */
@@ -49,10 +50,35 @@ body {
 
 .feature-list .title {
   color: var(--title-text-color);
+  font-size: 14px;
+}
+
+/* work */
+
+.work .title {
+  color: var(--title-text-color);
+  font-size: 36px;
 }
 
 /* about */
+.about-title {
+  color: var(--title-text-color);
+  font-size: 36px;
+}
 
 .about .title {
   color: var(--title-text-color);
+  font-size: 16px;
+}
+
+/* footer and address */
+.footer {
+  background-color: var(--secondary-bg-color);
+}
+.address .link {
+  color: var(--primary-white-color);
+}
+
+.address .link.transparency {
+  opacity: 0.6;
 }
