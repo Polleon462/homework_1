@@ -87,19 +87,19 @@ body {
   opacity: 0.6;
 }
 
-/* portfolio-choise */
-.choise .link {
+/* portfolio-nav */
+.portfolio-nav .nav-btn {
   color: var(--title-text-color);
   background-color: #f5f4fa;
 }
 
-.choise .link:hover,
-.choise .link:focus {
+.portfolio-nav .nav-btn:hover,
+.portfolio-nav .nav-btn:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-text-color);
 }
 
-/* portfolio-work-list */
+/* portfolio-work list */
 
 .portfolio-work .title {
   color: var(--title-text-color);
